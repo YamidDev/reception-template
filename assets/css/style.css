@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "RidleyGrotesk-Bold";
+    src: url(../font/Ridley-Grotesk/RidleyGrotesk-Bold.otf);
+}
+
+@font-face {
+    font-family: "RidleyGrotesk-SemiBold";
+    src: url(../font/Ridley-Grotesk/RidleyGrotesk-SemiBold.otf);
+}
+
+@font-face {
+    font-family: "RidleyGrotesk-Regular";
+    src: url(../font/Ridley-Grotesk/RidleyGrotesk-Regular.otf);
+}
+
+@font-face {
+    font-family: "RidleyGrotesk-Medium";
+    src: url(../font/Ridley-Grotesk/RidleyGrotesk-Medium.otf);
+}
+
+@font-face {
+    font-family: "RidleyGrotesk-Light";
+    src: url(../font/Ridley-Grotesk/RidleyGrotesk-Light.otf);
+}
+
+@font-face {
+    font-family: "RidleyGrotesk-Italic";
+    src: url(../font/Ridley-Grotesk/RidleyGrotesk-Italic.otf);
+}
+
+body {
+    font-family: "RidleyGrotesk-Regular";
+}
+
+.modal-header p {
+    margin: auto;
+    font-family: "RidleyGrotesk-SemiBold";
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-body p{
+    font-family: "RidleyGrotesk-Regular";
+    font-weight: 500;
+}
+
+.modal-body img {
+    cursor: pointer;
+}
+
+.p-natural {
+    margin-left: 1rem;
+    padding: 1rem;
+    border: 1px solid #EBEBEB;
+    border-radius: 19px;
+    box-sizing: border-box;
+}
+
+.p-legal {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 1rem;
+    border: 1px solid #EBEBEB;
+    border-radius: 19px;
+    box-sizing: border-box;
+}
+
+.modal-footer {
+    border-top: none;
+    margin-bottom: 1rem;;
+}
+
+.modal-footer img{
+    margin: auto;
+}
